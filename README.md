@@ -1,13 +1,15 @@
-
 # Algorithm Visualizer
 
 A React App that allows Algorithm Visualization
 
+Live Version [here](https://algo-visuals.herokuapp.com/)
+
 Algorithms:
- - [x] Merge Sort
- - [ ] Bubble Sort
- - [ ] Quick Sort 
- - [ ] Insertion Sort
+
+- [x] Merge Sort
+- [ ] Bubble Sort
+- [ ] Quick Sort
+- [ ] Insertion Sort
 
 ## Available Scripts
 
