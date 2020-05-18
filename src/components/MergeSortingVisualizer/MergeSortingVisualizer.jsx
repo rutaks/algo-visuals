@@ -9,22 +9,20 @@ export default class MergeSortingVisualizer extends Component {
     this.state = {
       array: [],
     };
-
-    this.resetArray = this.resetArray.bind(this);
   }
 
   componentDidMount() {
     this.resetArray();
   }
 
-  resetArray() {
+  resetArray = () => {
     const array = [];
     for (let i = 0; i < 125; i++) {
       array.push(getIntervals(5, 600));
     }
 
     this.setState({ array });
-  }
+  };
 
   render() {
     const { array } = this.state;
