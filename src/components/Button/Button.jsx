@@ -1,12 +1,18 @@
 import React from "react";
 
 export default function Button({
-  onClick,
+  onClick = () => {},
   design = "primary",
   text = "Button",
+  disabled = false,
 }) {
   return (
-    <button type="button" onClick={onClick} className={`btn btn-${design}`}>
+    <button
+      type="button"
+      disabled={disabled}
+      onClick={onClick}
+      className={`btn btn-${design}`}
+    >
       {text}
     </button>
   );

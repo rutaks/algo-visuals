@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-export default class Navbar extends Component {
+export class Navbar extends Component {
   render() {
     return (
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="/">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a className="navbar-brand" href="/">
           SAV
         </a>
       </nav>
