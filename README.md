@@ -2,6 +2,9 @@
 
 A React App that allows Algorithm Visualization
 
+<img src="./previews/1.gif" width="300" height="200">
+<img src="./previews/2.gif" width="300" height="200">
+
 Live Version [here](https://algo-visuals.herokuapp.com/)
 
 Algorithms:
